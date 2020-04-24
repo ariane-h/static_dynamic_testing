@@ -12,6 +12,7 @@ class CardGame
     @cards = cards
   end
 
+
   def checkforAce(card)
     if card.value = 1
       return true
@@ -27,7 +28,6 @@ class CardGame
       return card2
     end
   end
-
 
   def self.cards_total(cards)
     total = 0
